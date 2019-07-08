@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script>
+        //        var name = prompt("enter the name:");
+        //        String.prototype.reverse = function() {
+        //            return this.split("").reverse().join("");
+        //        }
+        //        //                var str_name = toString(name);
+        //        var revname = name.reverse();
+        //        console.log(revname);
+        //        if (revname == name) {
+        //            alert("true");
+        //        } else {
+        //            alert("false");
+        //        }
+
+
+
+        //        var reqNum = prompt("enter the value:");
+        String.prototype.luckNumber = function() {
+            if (+(this.valueOf() != NaN))
+                var sum = 0;
+            var reqArr = this.split("");
+            for (var i = 0; i < reqArr.length; i++) {
+                sum += parseInt(reqArr[i]);
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
